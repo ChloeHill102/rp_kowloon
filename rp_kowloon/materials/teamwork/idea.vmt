@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "teamwork/idea"
+	"$nolod" 1
+		"LightmappedGeneric_DX9"
+   	{
+      		"$alpha" 0.95
+   	}
+}
