@@ -2815,3 +2815,2530 @@ Level flags = 0
 Total triangle count: 3856
 Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
 3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 611 texinfos to 308
+Reduced 93 texdatas to 86 (2306 bytes to 2113)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 423 portalclusters
+1216 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 483 visible clusters (0.75%)
+Total clusters visible: 64828
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 400
+visdatasize:44576  compressed from 47376
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1492 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1492 patches before subdivision
+7692 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 399079, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8881, 8230, 6760)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1374, 1129, 727)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(293, 220, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 46, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16, 10, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2374/65536       28488/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1492/65536       83552/3670016  ( 2.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1737/65536        3474/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11122/512000      44488/2048000  ( 2.2%) 
+edges                 6523/256000      26092/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13585/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2971/65536       83188/1835008  ( 4.5%) 
+HDR leaf ambient       946/65536       26488/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4326
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1492 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1492 patches before subdivision
+7692 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 399079, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9192, 8532, 7072)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1423, 1174, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(301, 226, 129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(69, 47, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(17, 11, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2374/65536       28488/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1492/65536       83552/3670016  ( 2.3%) 
+hdr faces             1492/65536       83552/3670016  ( 2.3%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1737/65536        3474/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11122/512000      44488/2048000  ( 2.2%) 
+edges                 6523/256000      26092/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245544/0        ( 0.0%) 
+HDR lightdata         [variable]      245544/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13585/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2971/65536       83188/1835008  ( 4.5%) 
+HDR leaf ambient      2975/65536       83300/1835008  ( 4.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4326
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 611 texinfos to 308
+Reduced 93 texdatas to 86 (2306 bytes to 2113)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 423 portalclusters
+1218 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 483 visible clusters (0.74%)
+Total clusters visible: 64938
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 400
+visdatasize:44576  compressed from 47376
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1491 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1491 patches before subdivision
+7691 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 398975, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8886, 8235, 6765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1375, 1129, 727)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(294, 220, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 46, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16, 10, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2372/65536       28464/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1491/65536       83496/3670016  ( 2.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1740/65536        3480/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11116/512000      44464/2048000  ( 2.2%) 
+edges                 6520/256000      26080/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245476/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13674/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2962/65536       82936/1835008  ( 4.5%) 
+HDR leaf ambient       946/65536       26488/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4322
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1491 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1491 patches before subdivision
+7691 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 398975, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9198, 8536, 7077)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1424, 1174, 766)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(301, 226, 129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(69, 47, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(17, 11, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2372/65536       28464/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1491/65536       83496/3670016  ( 2.3%) 
+hdr faces             1491/65536       83496/3670016  ( 2.3%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1740/65536        3480/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11116/512000      44464/2048000  ( 2.2%) 
+edges                 6520/256000      26080/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245476/0        ( 0.0%) 
+HDR lightdata         [variable]      245476/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13674/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2962/65536       82936/1835008  ( 4.5%) 
+HDR leaf ambient      2967/65536       83076/1835008  ( 4.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4322
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114932 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 611 texinfos to 308
+Reduced 93 texdatas to 86 (2306 bytes to 2113)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 423 portalclusters
+1218 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 483 visible clusters (0.74%)
+Total clusters visible: 64938
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 400
+visdatasize:44576  compressed from 47376
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1491 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1491 patches before subdivision
+7691 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 398975, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8886, 8235, 6765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1375, 1129, 727)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(294, 220, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 46, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16, 10, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2372/65536       28464/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1491/65536       83496/3670016  ( 2.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1740/65536        3480/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11116/512000      44464/2048000  ( 2.2%) 
+edges                 6520/256000      26080/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245476/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13720/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2962/65536       82936/1835008  ( 4.5%) 
+HDR leaf ambient       946/65536       26488/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4322
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1491 faces
+147514 square feet [21242136.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1491 patches before subdivision
+7691 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 398975, max 292
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9198, 8536, 7077)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1424, 1174, 766)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(301, 226, 129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(69, 47, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(17, 11, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                325/8192         3900/98304    ( 4.0%) 
+brushsides            1982/65536       15856/524288   ( 3.0%) 
+planes                 762/65536       15240/1310720  ( 1.2%) 
+vertexes              2372/65536       28464/786432   ( 3.6%) 
+nodes                  942/65536       30144/2097152  ( 1.4%) 
+texinfos               308/12288       22176/884736   ( 2.5%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1491/65536       83496/3670016  ( 2.3%) 
+hdr faces             1491/65536       83496/3670016  ( 2.3%) 
+origfaces              953/65536       53368/3670016  ( 1.5%) 
+leaves                 946/65536       30272/2097152  ( 1.4%) 
+leaffaces             1740/65536        3480/131072   ( 2.7%) 
+leafbrushes            647/65536        1294/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11116/512000      44464/2048000  ( 2.2%) 
+edges                 6520/256000      26080/1024000  ( 2.5%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2235/65536        4470/131072   ( 3.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      245476/0        ( 0.0%) 
+HDR lightdata         [variable]      245476/0        ( 0.0%) 
+visdata               [variable]       44576/16777216 ( 0.3%) 
+entdata               [variable]       13720/393216   ( 3.5%) 
+LDR ambient table      946/65536        3784/262144   ( 1.4%) 
+HDR ambient table      946/65536        3784/262144   ( 1.4%) 
+LDR leaf ambient      2962/65536       82936/1835008  ( 4.5%) 
+HDR leaf ambient      2967/65536       83076/1835008  ( 4.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      114932/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4322
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (120703 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 645 texinfos to 323
+Reduced 93 texdatas to 86 (2306 bytes to 2113)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 443 portalclusters
+1281 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 574 visible clusters (0.83%)
+Total clusters visible: 69235
+Average clusters visible: 156
+Building PAS...
+Average clusters audible: 422
+visdatasize:48982  compressed from 49616
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9168, 8513, 7040)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1485, 1237, 833)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(321, 247, 151)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(75, 53, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient       989/65536       27692/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9480, 8814, 7353)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1534, 1282, 872)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(329, 254, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(76, 54, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces             1563/65536       87528/3670016  ( 2.4%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]      255768/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient      2990/65536       83720/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Brush 26967: bounds out of range
+Brush 26967: bounds out of range
+Brush 26967: bounds out of range
+Brush 26899: bounds out of range
+Brush 26899: bounds out of range
+Brush 26899: bounds out of range
+Brush 27801: bounds out of range
+Brush 27801: bounds out of range
+Brush 27801: bounds out of range
+Brush 27802: bounds out of range
+Brush 27802: bounds out of range
+Brush 27802: bounds out of range
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 16392.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16392.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16392.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16392.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 13312.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 13312.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 12288.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16392.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 15360.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 13312.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 16392.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 16392.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 16384.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 15360.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 14336.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 11264.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 13312.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 12288.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 11264.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 10240.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 1024.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 9216.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 7168.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 9216.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 9216.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 8192.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 5120.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 0.000000, -65553.023438))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: DEV/DEV_BLENDMEASURE, near (1024.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1032.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSSKYBOX, near (1024.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSSKYBOX, near (1024.000000, 1032.000000, 65535.996094))
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+LoadPortals: couldn't read c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9168, 8513, 7040)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1485, 1237, 833)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(321, 247, 151)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(75, 53, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces             1563/65536       87528/3670016  ( 2.4%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]      255768/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient      2990/65536       83720/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9480, 8814, 7353)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1534, 1282, 872)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(329, 254, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(76, 54, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces             1563/65536       87528/3670016  ( 2.4%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]      255768/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient      2990/65536       83720/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Brush 27801: bounds out of range
+Brush 27801: bounds out of range
+Brush 27801: bounds out of range
+Brush 27802: bounds out of range
+Brush 27802: bounds out of range
+Brush 27802: bounds out of range
+Brush 29099: bounds out of range
+Brush 29099: bounds out of range
+Brush 29099: bounds out of range
+Brush 29100: bounds out of range
+Brush 29100: bounds out of range
+Brush 29100: bounds out of range
+Brush 29481: bounds out of range
+Brush 29481: bounds out of range
+Brush 29481: bounds out of range
+Brush 29482: bounds out of range
+Brush 29482: bounds out of range
+Brush 29482: bounds out of range
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-16392.000000, 2056.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 2056.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16384.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (16392.000000, -7168.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (15360.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (14336.000000, -7168.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -3072.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (13312.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (12288.000000, -7168.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -4096.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -5120.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (11264.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -6144.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (10240.000000, -7168.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -7168.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (9216.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (8192.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, 0.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (7168.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, -1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (6144.000000, -2048.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, -2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (5120.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (4096.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (3072.000000, 2056.000000, 65552.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-0.000000, 2056.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 2048.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: DEV/DEV_BLENDMEASURE, near (0.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1032.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSSKYBOX, near (1024.000000, 1024.000000, 65535.996094))
+WARNING: BSP node with unbounded volume (material: TOOLS/TOOLSSKYBOX, near (1024.000000, 1032.000000, 65535.996094))
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+LoadPortals: couldn't read c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9168, 8513, 7040)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1485, 1237, 833)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(321, 247, 151)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(75, 53, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces             1563/65536       87528/3670016  ( 2.4%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]      255768/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient      2990/65536       83720/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1563 faces
+147507 square feet [21241140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1563 patches before subdivision
+7791 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 412547, max 292
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9480, 8814, 7353)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1534, 1282, 872)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(329, 254, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(76, 54, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                339/8192         4068/98304    ( 4.1%) 
+brushsides            2066/65536       16528/524288   ( 3.2%) 
+planes                 816/65536       16320/1310720  ( 1.2%) 
+vertexes              2480/65536       29760/786432   ( 3.8%) 
+nodes                  984/65536       31488/2097152  ( 1.5%) 
+texinfos               323/12288       23256/884736   ( 2.6%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1563/65536       87528/3670016  ( 2.4%) 
+hdr faces             1563/65536       87528/3670016  ( 2.4%) 
+origfaces              997/65536       55832/3670016  ( 1.5%) 
+leaves                 989/65536       31648/2097152  ( 1.5%) 
+leaffaces             1847/65536        3694/131072   ( 2.8%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11628/512000      46512/2048000  ( 2.3%) 
+edges                 6858/256000      27432/1024000  ( 2.7%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2277/65536        4554/131072   ( 3.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      255768/0        ( 0.0%) 
+HDR lightdata         [variable]      255768/0        ( 0.0%) 
+visdata               [variable]       48982/16777216 ( 0.3%) 
+entdata               [variable]       14310/393216   ( 3.6%) 
+LDR ambient table      989/65536        3956/262144   ( 1.5%) 
+HDR ambient table      989/65536        3956/262144   ( 1.5%) 
+LDR leaf ambient      2986/65536       83608/1835008  ( 4.6%) 
+HDR leaf ambient      2990/65536       83720/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      120703/4194304  ( 2.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4514
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (131185 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 704 texinfos to 375
+Reduced 95 texdatas to 88 (2357 bytes to 2164)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 427 portalclusters
+1206 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 617 visible clusters (1.09%)
+Total clusters visible: 56826
+Average clusters visible: 133
+Building PAS...
+Average clusters audible: 387
+visdatasize:44812  compressed from 47824
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1709 faces
+149078 square feet [21467256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1709 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+8061 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 410080, max 288
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8399, 7774, 6343)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1499, 1263, 857)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(354, 286, 187)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(92, 71, 45)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 19, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                369/8192         4428/98304    ( 4.5%) 
+brushsides            2262/65536       18096/524288   ( 3.5%) 
+planes                 886/65536       17720/1310720  ( 1.4%) 
+vertexes              2782/65536       33384/786432   ( 4.2%) 
+nodes                 1012/65536       32384/2097152  ( 1.5%) 
+texinfos               375/12288       27000/884736   ( 3.1%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1709/65536       95704/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1095/65536       61320/3670016  ( 1.7%) 
+leaves                1019/65536       32608/2097152  ( 1.6%) 
+leaffaces             2005/65536        4010/131072   ( 3.1%) 
+leafbrushes            751/65536        1502/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12855/512000      51420/2048000  ( 2.5%) 
+edges                 7587/256000      30348/1024000  ( 3.0%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3084/65536        6168/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      281056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44812/16777216 ( 0.3%) 
+entdata               [variable]       16530/393216   ( 4.2%) 
+LDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+HDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+LDR leaf ambient      2849/65536       79772/1835008  ( 4.3%) 
+HDR leaf ambient      1019/65536       28532/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2244     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      131185/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5058
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1709 faces
+149078 square feet [21467256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1709 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+8061 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 410080, max 288
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8712, 8076, 6656)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1549, 1308, 896)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(361, 293, 192)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(93, 72, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 19, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                369/8192         4428/98304    ( 4.5%) 
+brushsides            2262/65536       18096/524288   ( 3.5%) 
+planes                 886/65536       17720/1310720  ( 1.4%) 
+vertexes              2782/65536       33384/786432   ( 4.2%) 
+nodes                 1012/65536       32384/2097152  ( 1.5%) 
+texinfos               375/12288       27000/884736   ( 3.1%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1709/65536       95704/3670016  ( 2.6%) 
+hdr faces             1709/65536       95704/3670016  ( 2.6%) 
+origfaces             1095/65536       61320/3670016  ( 1.7%) 
+leaves                1019/65536       32608/2097152  ( 1.6%) 
+leaffaces             2005/65536        4010/131072   ( 3.1%) 
+leafbrushes            751/65536        1502/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12855/512000      51420/2048000  ( 2.5%) 
+edges                 7587/256000      30348/1024000  ( 3.0%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3084/65536        6168/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      281056/0        ( 0.0%) 
+HDR lightdata         [variable]      281056/0        ( 0.0%) 
+visdata               [variable]       44812/16777216 ( 0.3%) 
+entdata               [variable]       16530/393216   ( 4.2%) 
+LDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+HDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+LDR leaf ambient      2849/65536       79772/1835008  ( 4.3%) 
+HDR leaf ambient      2855/65536       79940/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2244     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      131185/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5058
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (131185 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 704 texinfos to 375
+Reduced 95 texdatas to 88 (2357 bytes to 2164)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 427 portalclusters
+1206 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 617 visible clusters (1.09%)
+Total clusters visible: 56826
+Average clusters visible: 133
+Building PAS...
+Average clusters audible: 387
+visdatasize:44812  compressed from 47824
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1709 faces
+149078 square feet [21467256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1709 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+8061 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 410080, max 288
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8399, 7774, 6343)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1499, 1262, 857)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(354, 286, 187)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(92, 71, 45)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 19, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                369/8192         4428/98304    ( 4.5%) 
+brushsides            2262/65536       18096/524288   ( 3.5%) 
+planes                 886/65536       17720/1310720  ( 1.4%) 
+vertexes              2782/65536       33384/786432   ( 4.2%) 
+nodes                 1012/65536       32384/2097152  ( 1.5%) 
+texinfos               375/12288       27000/884736   ( 3.1%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1709/65536       95704/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1095/65536       61320/3670016  ( 1.7%) 
+leaves                1019/65536       32608/2097152  ( 1.6%) 
+leaffaces             2005/65536        4010/131072   ( 3.1%) 
+leafbrushes            751/65536        1502/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12855/512000      51420/2048000  ( 2.5%) 
+edges                 7587/256000      30348/1024000  ( 3.0%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3084/65536        6168/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      281056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44812/16777216 ( 0.3%) 
+entdata               [variable]       16530/393216   ( 4.2%) 
+LDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+HDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+LDR leaf ambient      2849/65536       79772/1835008  ( 4.3%) 
+HDR leaf ambient      1019/65536       28532/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2244     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      131185/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5058
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1709 faces
+149078 square feet [21467256.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1709 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+8061 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 410080, max 288
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8712, 8076, 6656)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1549, 1308, 896)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(361, 293, 192)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(93, 72, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 19, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                369/8192         4428/98304    ( 4.5%) 
+brushsides            2262/65536       18096/524288   ( 3.5%) 
+planes                 886/65536       17720/1310720  ( 1.4%) 
+vertexes              2782/65536       33384/786432   ( 4.2%) 
+nodes                 1012/65536       32384/2097152  ( 1.5%) 
+texinfos               375/12288       27000/884736   ( 3.1%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1709/65536       95704/3670016  ( 2.6%) 
+hdr faces             1709/65536       95704/3670016  ( 2.6%) 
+origfaces             1095/65536       61320/3670016  ( 1.7%) 
+leaves                1019/65536       32608/2097152  ( 1.6%) 
+leaffaces             2005/65536        4010/131072   ( 3.1%) 
+leafbrushes            751/65536        1502/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12855/512000      51420/2048000  ( 2.5%) 
+edges                 7587/256000      30348/1024000  ( 3.0%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          9/8192          792/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3084/65536        6168/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      281056/0        ( 0.0%) 
+HDR lightdata         [variable]      281056/0        ( 0.0%) 
+visdata               [variable]       44812/16777216 ( 0.3%) 
+entdata               [variable]       16530/393216   ( 4.2%) 
+LDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+HDR ambient table     1019/65536        4076/262144   ( 1.6%) 
+LDR leaf ambient      2849/65536       79772/1835008  ( 4.3%) 
+HDR leaf ambient      2855/65536       79940/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2244     ( 0.0%) 
+pakfile               [variable]      211863/0        ( 0.0%) 
+physics               [variable]      131185/4194304  ( 3.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5058
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+4 seconds elapsed
