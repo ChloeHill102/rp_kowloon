@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8014"
-	"mapversion" "100"
+	"mapversion" "101"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "100"
+	"mapversion" "101"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23573,7 +23573,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "-160.5 170 52.5"
+	"origin" "-161.5 170 52.5"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -23584,7 +23584,7 @@ entity
 	"targetname" "lightswitch001"
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
-	"wait" "0"
+	"wait" "0.1"
 	connections
 	{
 		"OnPressed" "light001,Toggle,,0,-1"
@@ -23595,9 +23595,9 @@ entity
 		side
 		{
 			"id" "4443"
-			"plane" "(-161 173 57) (-160 173 57) (-160 167 57)"
+			"plane" "(-162 173 57) (-161 173 57) (-161 167 57)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -23606,9 +23606,9 @@ entity
 		side
 		{
 			"id" "4442"
-			"plane" "(-161 167 48) (-160 167 48) (-160 173 48)"
+			"plane" "(-162 167 48) (-161 167 48) (-161 173 48)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -23617,7 +23617,7 @@ entity
 		side
 		{
 			"id" "4441"
-			"plane" "(-161 173 57) (-161 167 57) (-161 167 48)"
+			"plane" "(-162 173 57) (-162 167 57) (-162 167 48)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -23628,7 +23628,7 @@ entity
 		side
 		{
 			"id" "4440"
-			"plane" "(-160 173 48) (-160 167 48) (-160 167 57)"
+			"plane" "(-161 173 48) (-161 167 48) (-161 167 57)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -23639,9 +23639,9 @@ entity
 		side
 		{
 			"id" "4439"
-			"plane" "(-160 173 57) (-161 173 57) (-161 173 48)"
+			"plane" "(-161 173 57) (-162 173 57) (-162 173 48)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -23650,9 +23650,9 @@ entity
 		side
 		{
 			"id" "4438"
-			"plane" "(-160 167 48) (-161 167 48) (-161 167 57)"
+			"plane" "(-161 167 48) (-162 167 48) (-162 167 57)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -23763,15 +23763,16 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "252 255 213 40"
+	"_light" "252 255 213 30"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
+	"spawnflags" "0"
 	"style" "0"
 	"targetname" "light001"
-	"origin" "-232 213.699 98.9093"
+	"origin" "-232 214 91"
 	editor
 	{
 		"color" "0 200 101"
@@ -23780,13 +23781,42 @@ entity
 		"logicalpos" "[0 4500]"
 	}
 }
+entity
+{
+	"id" "21412"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 0 0"
+	"axis" "-156 100 46, -156 100 46"
+	"disableshadows" "0"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
+	"model" "models/props_c17/door01_left.mdl"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
+	"origin" "-156 100 46"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-213.179 116.742 77.7341]"
-		"look" "[-212.85 117.668 77.5465]"
+		"position" "[-244.6 163.254 79.0926]"
+		"look" "[-243.636 163.173 78.8369]"
 	}
 }
 cordon

@@ -860,3 +860,220 @@ Level flags = 0
 Total triangle count: 3854
 Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
 3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+Patching WVT material: maps/kowloon/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101581 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 542 texinfos to 274
+Reduced 85 texdatas to 79 (2111 bytes to 1957)
+Writing C:\Users\thenu\Documents\GitHub\rp_kowloon\kowloon.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+reading c:\users\thenu\documents\github\rp_kowloon\kowloon.prt
+ 379 portalclusters
+1087 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 507 visible clusters (0.94%)
+Total clusters visible: 54038
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 360
+visdatasize:36678  compressed from 36384
+writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1308 faces
+140705 square feet [20261590.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1308 patches before subdivision
+6292 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 306540, max 294
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6193, 5502, 3702)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1244, 961, 497)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(283, 199, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(67, 42, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16, 10, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                289/8192         3468/98304    ( 3.5%) 
+brushsides            1758/65536       14064/524288   ( 2.7%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              2118/65536       25416/786432   ( 3.2%) 
+nodes                  824/65536       26368/2097152  ( 1.3%) 
+texinfos               274/12288       19728/884736   ( 2.2%) 
+texdata                 79/2048         2528/65536    ( 3.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1308/65536       73248/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              841/65536       47096/3670016  ( 1.3%) 
+leaves                 827/65536       26464/2097152  ( 1.3%) 
+leaffaces             1518/65536        3036/131072   ( 2.3%) 
+leafbrushes            566/65536        1132/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9838/512000      39352/2048000  ( 1.9%) 
+edges                 5805/256000      23220/1024000  ( 2.3%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            130/32768        1300/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2106/65536        4212/131072   ( 3.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      222524/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36678/16777216 ( 0.2%) 
+entdata               [variable]       12481/393216   ( 3.2%) 
+LDR ambient table      827/65536        3308/262144   ( 1.3%) 
+HDR ambient table      827/65536        3308/262144   ( 1.3%) 
+LDR leaf ambient      2194/65536       61432/1835008  ( 3.3%) 
+HDR leaf ambient       827/65536       23156/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      105990/0        ( 0.0%) 
+physics               [variable]      101581/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3854
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+1308 faces
+140705 square feet [20261590.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1308 patches before subdivision
+6292 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 306540, max 294
+transfer lists:   2.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6504, 5802, 4013)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1293, 1006, 536)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(291, 205, 97)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 44, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(16, 10, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                289/8192         3468/98304    ( 3.5%) 
+brushsides            1758/65536       14064/524288   ( 2.7%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              2118/65536       25416/786432   ( 3.2%) 
+nodes                  824/65536       26368/2097152  ( 1.3%) 
+texinfos               274/12288       19728/884736   ( 2.2%) 
+texdata                 79/2048         2528/65536    ( 3.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1308/65536       73248/3670016  ( 2.0%) 
+hdr faces             1308/65536       73248/3670016  ( 2.0%) 
+origfaces              841/65536       47096/3670016  ( 1.3%) 
+leaves                 827/65536       26464/2097152  ( 1.3%) 
+leaffaces             1518/65536        3036/131072   ( 2.3%) 
+leafbrushes            566/65536        1132/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9838/512000      39352/2048000  ( 1.9%) 
+edges                 5805/256000      23220/1024000  ( 2.3%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          8/8192          704/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            130/32768        1300/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2106/65536        4212/131072   ( 3.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]      222524/0        ( 0.0%) 
+HDR lightdata         [variable]      222524/0        ( 0.0%) 
+visdata               [variable]       36678/16777216 ( 0.2%) 
+entdata               [variable]       12481/393216   ( 3.2%) 
+LDR ambient table      827/65536        3308/262144   ( 1.3%) 
+HDR ambient table      827/65536        3308/262144   ( 1.3%) 
+LDR leaf ambient      2194/65536       61432/1835008  ( 3.3%) 
+HDR leaf ambient      2193/65536       61404/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2172     ( 0.0%) 
+pakfile               [variable]      105990/0        ( 0.0%) 
+physics               [variable]      101581/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3854
+Writing c:\users\thenu\documents\github\rp_kowloon\kowloon.bsp
+3 seconds elapsed
