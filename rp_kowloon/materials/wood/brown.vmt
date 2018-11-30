@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brown"
+	"$surfaceprop" "Wood_Solid"
+	"$detail" "detail\wood_detail_01"
+	"$translucent" 1
+}

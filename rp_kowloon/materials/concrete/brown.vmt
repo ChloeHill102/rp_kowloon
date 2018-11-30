@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brown"
+	"$surfaceprop" "Concrete"
+	"$detail" "detail\noise_detail_01"
+	"$translucent" 1
+}
