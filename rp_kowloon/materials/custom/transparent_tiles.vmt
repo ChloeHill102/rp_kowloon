@@ -1,0 +1,22 @@
+"lightmappedreflective"
+{
+	"$basetexture" "custom/transparent_tiles"
+	"$bumpmap" "custom/transparent_tiles_normal"
+	"$surfaceprop" "Tile"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.15"
+	"$refracttint" "[.1 .1 .2]"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "0.15"
+	"$reflecttint" "[.6 .6 .6]"
+
+	"$fresnelpower" "0.1"
+	"$minreflectivity" "0.4"
+	"$maxreflectivity" "0.75"
+
+	"$normalmap" "custom/transparent_tiles_normal"
+
+	"$bumpframe" "0.0"
+}
+

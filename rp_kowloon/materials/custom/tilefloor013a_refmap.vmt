@@ -1,0 +1,22 @@
+"lightmappedreflective"
+{
+	"$basetexture" "custom/tilefloor013a_refmap"
+	"$bumpmap" "custom/tilefloor013a_refmap_norm"
+	"$surfaceprop" "Tile"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0"
+	"$refracttint" "[.5 .5 .6]"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "1"
+	"$reflecttint" "[.3 .3 .3]"
+
+	"$fresnelpower" "0"
+	"$minreflectivity" "0.8"
+	"$maxreflectivity" "1.0"
+
+	"$normalmap" "custom/tilefloor013a_refmap_norm"
+
+	"$bumpframe" "0"
+}
+
